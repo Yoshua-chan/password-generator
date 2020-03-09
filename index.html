@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Yoshua's Password Generator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="decription" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css"> 
+</head>
+<body>
+    <header>
+        <div id="titlediv"> 
+            <h5 id="pretitle">I made myself some</h3>
+            <h1 id="title">Yoshua's Password generator</h1>
+            <h6 id="subtitle">and it probably works like ass</h3>
+        </div>
+    </header> 
+    
+    <section id="mainarea">
+        <div id="container">
+            <div> 
+            <form action="" id="myform">
+                
+                <label for="lenght">Lenght:</label>
+                <input type="number" id="lenght">
+                <br>
+                <label for="lowerCheckbox">Include Lowercase</label>
+                <input type="checkbox" id="lowerCheckbox">
+                <br>
+                <label for="upperCheckbox">Include Uppercase</label>
+                <input type="checkbox" id="upperCheckbox">
+                <br>
+                <label for="numberCheckbox">Include Numbers</label>
+                <input type="checkbox" id="numberCheckbox">
+                <br>
+                <label for="symbolsCheckbox">Include Symbols</label>
+                <input type="checkbox" id="symbolsCheckbox">
+                <br>
+                <label for="reducedSymbols">Include Reduced Symbols</label>
+                <input type="checkbox" id="reducedSymbols">
+                <br>
+                <label for="generate"></label>
+                <input id="generate" type="submit" value="Generate">
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

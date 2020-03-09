@@ -1,0 +1,44 @@
+* {margin: 0; padding: 0;}
+body {
+    background-color: #381460;
+    color: #b21f66;
+    font-family: monospace;
+    font-size: 20px
+}
+header {
+    background-color: #250d3f;
+    padding: 15px;
+    
+}
+header h1 { 
+    font-size: 1.5em;
+}
+#container {
+    margin-top: 20px;
+    background-color:  #250d3f;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 450px;
+}
+#myform {
+    margin: auto;
+}
+#upperCheckbox {
+    background-color: #b21f66;
+}
+#lenght {
+    background-color: #250d3f;
+    border: #b21f66 1px solid;
+    padding: 5px;
+    color: #b21f66;
+    width: 20px;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
