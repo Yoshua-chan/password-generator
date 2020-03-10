@@ -22,7 +22,7 @@ form.addEventListener('submit', onSubmit);
 
 function onSubmit (event) {
     event.preventDefault();
-    let password = 'chuj';
+    let password = '';
     let lowerValue = lowerCheckbox.checked;
     let upperValue = upperCheckbox.checked;
     let numberValue = numberCheckbox.checked;
