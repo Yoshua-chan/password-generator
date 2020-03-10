@@ -17,7 +17,6 @@ header {
     background-color:  #250d3f;
     box-sizing: border-box;
     padding: 20px;
-    min-width:;
     margin: auto;
     margin-top: 20px;
     text-align: left;
@@ -53,8 +52,6 @@ input {
 }
 #generate { 
     float: none;
-    
     margin: 0;
-
 }
 
