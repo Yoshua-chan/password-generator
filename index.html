@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="main.css" type="text/css"> 
 </head>
 <body>
-    <header>
+    <header id="mainheader">
         <div id="titlediv"> 
             <h5 id="pretitle">I made myself some</h3>
             <h1 id="title">Yoshua's Password generator</h1>
@@ -21,9 +21,11 @@
     
     <section id="mainarea">
         <div id="container">
-            <div> 
-            <form action="" id="myform">
+            <div id="result">
                 
+            </div>
+            <form action="" id="myform">
+                <h3 id="options">Options</h1>
                 <label for="lenght">Lenght:</label>
                 <input type="number" id="lenght">
                 <br>
@@ -39,7 +41,7 @@
                 <label for="symbolsCheckbox">Include Symbols</label>
                 <input type="checkbox" id="symbolsCheckbox">
                 <br>
-                <label for="reducedSymbols">Include Reduced Symbols</label>
+                <label for="reducedSymbols">Reduced Symbols</label>
                 <input type="checkbox" id="reducedSymbols">
                 <br>
                 <label for="generate"></label>

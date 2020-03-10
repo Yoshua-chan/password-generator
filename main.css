@@ -10,15 +10,18 @@ header {
     padding: 15px;
     
 }
-header h1 { 
+#mainheader h1 { 
     font-size: 1.5em;
 }
 #container {
-    margin-top: 20px;
     background-color:  #250d3f;
     box-sizing: border-box;
     padding: 20px;
-    width: 450px;
+    min-width:;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
 }
 #myform {
     margin: auto;
@@ -40,5 +43,18 @@ input[type=number]::-webkit-outer-spin-button {
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
+}
+#mainarea {
+    text-align: center;
+}
+input {
+    float: right;
+    margin-left: 15px;
+}
+#generate { 
+    float: none;
+    
+    margin: 0;
+
 }
 
