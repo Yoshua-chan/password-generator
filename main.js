@@ -29,7 +29,7 @@ function onSubmit (event) {
     let symbolValue = symbolCheckbox.checked;
     let lenghtValue = lenght.value;
     if(lowerValue + upperValue + numberValue + symbolValue == 0){
-        console.log('You mast check at least one checkbox'); 
+        console.log('You must check at least one checkbox'); 
     } else {
         appendCharset(lowerValue, upperValue, numberValue, symbolValue);
         password = generate(CHARSET, lenghtValue);
