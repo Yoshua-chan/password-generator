@@ -5,7 +5,15 @@ const upperCheckbox = document.getElementById('upperCheckbox');
 const numberCheckbox = document.getElementById('numberCheckbox');
 const symbolCheckbox = document.getElementById('symbolsCheckbox');
 const lenght = document.getElementById('lenght')
+
+lowerCheckbox.checked = true;
+upperCheckbox.checked = true;
+numberCheckbox.checked = true;
+symbolsCheckbox.checked = true;
+
+
 let CHARSET = []
+
 lenght.addEventListener('click', (e) => {
     e.preventDefault;
     lenght.select();
