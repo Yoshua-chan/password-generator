@@ -89,7 +89,7 @@ input {
 }
 #result {
     font-size: 20px;
-    min-height: 1em;
+    min-height: 1.1em;
     display: block;
     line-height: 1.14em;
     word-break: break-all;
